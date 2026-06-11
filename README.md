@@ -1,5 +1,4 @@
-# customdataset_pytorch_classifier
-Custom Image Classification using VGG16 &amp; PyTorch. Features a custom-authored Dataset class for Google Drive integration, Transfer Learning with a fine-tuned classifier head, and data augmentation. Achieved 87.7% test accuracy on the "Super" dataset.
+
 # Custom Image Classification using VGG16 & PyTorch
 
 A high-performance deep learning pipeline built with PyTorch to classify images from the "Super" dataset. Features a custom-authored Dataset class designed for Google Drive integration, data augmentation, and Transfer Learning using a fine-tuned VGG16 architecture.
