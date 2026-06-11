@@ -31,8 +31,8 @@ A high-performance deep learning pipeline built with PyTorch to classify images 
 To achieve these results, the VGG16 backbone was fine-tuned using the following configuration:
 * **Loss Function:** `CrossEntropyLoss` 
 * **Optimizer:** `Adam` 
-* **Learning Rate ():** `0.001` 
-* **Batch Size:** `32` 
+* **Learning Rate ():** `0.0001` 
+* **Batch Size:** `10` 
 * **Epochs:** Trained for `80` epochs 
 * **Evaluation Metric:** Multi-class Classification Report & Confusion Matrix
 
