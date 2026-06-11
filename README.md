@@ -26,6 +26,18 @@ A high-performance deep learning pipeline built with PyTorch to classify images 
 
 ---
 
+## ⚙️ Hyperparameters & Training Configuration
+
+To achieve these results, the VGG16 backbone was fine-tuned using the following configuration:
+* **Loss Function:** `CrossEntropyLoss` 
+* **Optimizer:** `Adam` 
+* **Learning Rate ():** `0.001` 
+* **Batch Size:** `32` 
+* **Epochs:** Trained for `80` epochs 
+* **Evaluation Metric:** Multi-class Classification Report & Confusion Matrix
+
+---
+
 ## 🛠️ Key Features
 * **Custom PyTorch Dataset:** Fully custom-authored `Dataset` class handling dynamic path resolution and on-the-fly streaming from Google Drive.
 * **Transfer Learning:** Leveraged a pre-trained **VGG16** backbone, freezing early feature-extraction layers and appending a custom-tuned classifier head.
