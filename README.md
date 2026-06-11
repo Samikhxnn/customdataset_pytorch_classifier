@@ -10,7 +10,7 @@ A high-performance deep learning pipeline built with PyTorch to classify images 
 
 | Training & Validation Loss | Confusion Matrix |
 | :---: | :---: |
-| ![Loss Curve](screenshots/loss_curve.png) <br> *Steady loss convergence showing healthy generalization* | ![Confusion Matrix](screenshots/confusion_matrix.png) <br> *Class-by-class performance and precision* |
+| ![Loss Curve](screenshots/loss_curv.png) <br> *Steady loss convergence showing healthy generalization* | ![Confusion Matrix](screenshots/confusion_matrix.png) <br> *Class-by-class performance and precision* |
 ### 🚀 Sample Predictions
 ![Sample Prediction1](screenshots/pred1.png)
 
