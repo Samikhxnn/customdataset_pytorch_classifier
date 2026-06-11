@@ -6,7 +6,7 @@ A high-performance deep learning pipeline built with PyTorch to classify images 
 ---
 
 ## 📊 Model Performance Highlights
-> **Quick Overview :** The model achieved a (90% aprox) test accuracy** on the "Super" dataset. Below are the training dynamics and final evaluation metrics.
+> **Quick Overview :** The model achieved a 89.44% test accuracy** on the "Super" dataset. Below are the training dynamics and final evaluation metrics.
 
 | Training & Validation Loss | Confusion Matrix |
 | :---: | :---: |
